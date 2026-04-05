@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "botiambot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "EuropenSMP.aternos.me",
+    "port": 55209,
     "version": "1.21.1"
   },
   "position": {
@@ -50,7 +50,7 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 2000
     },
     "look-around": {
       "enabled": true,
@@ -64,9 +64,9 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": true,
+    "beds": false,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": true,
